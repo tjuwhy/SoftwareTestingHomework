@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="client-combined-3.141.59-sources">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/libs/client-combined-3.141.59-sources.jar!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/client-combined-3.141.59-sources.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/libs/client-combined-3.141.59-sources.jar!/" />
+    </JAVADOC>
+    <NATIVE>
+      <root url="jar://$PROJECT_DIR$/libs/client-combined-3.141.59-sources.jar!/" />
+    </NATIVE>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/libs/client-combined-3.141.59-sources.jar!/" />
+    </SOURCES>
+    <jarDirectory url="jar://$PROJECT_DIR$/libs/client-combined-3.141.59-sources.jar!/" recursive="false" />
+    <jarDirectory url="jar://$PROJECT_DIR$/libs/client-combined-3.141.59-sources.jar!/" recursive="false" type="SOURCES" />
+  </library>
+</component>

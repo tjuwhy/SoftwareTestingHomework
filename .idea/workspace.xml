@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cbd57833-6f78-4462-96d8-6da3bdbf063d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/androidTest/java/stanwang/top/musicplayer/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/music/auth/LoginActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/music/auth/Userbean.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/music/music_player/Control.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/music/music_player/MusicPlayService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/music/music_player/MusicPlayerActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/music/music_player/MyLiveData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/music/music_player/beans.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/music/personal_list/Items.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/music/personal_list/PlayBean.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/music/personal_list/PlayListActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/music/personal_list/Shrink.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/music/play_list/Items.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/music/play_list/ListPop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/music/play_list/PlayListBean.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/music/play_list/PlayListDetailActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/drawable-v21/selector_foreground_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/drawable/bt_shape.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/drawable/default_avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/drawable/default_cover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/drawable/foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/drawable/ic_add_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/drawable/ic_add_white_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/drawable/ic_arrow_back_white_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/drawable/ic_chevron_right_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/drawable/ic_clear_all_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/drawable/ic_clear_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/drawable/ic_more_vert_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/drawable/ic_more_vert_grey_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/drawable/ic_pause_circle_outline_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/drawable/ic_play_circle_outline_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/drawable/ic_playlist_play_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/drawable/ic_share_white_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/drawable/ic_skip_next_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/drawable/ic_skip_previous_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/drawable/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/drawable/pause.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/drawable/play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/drawable/previous.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/drawable/select_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/drawable/selector_foreground_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/drawable/sky.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/drawable/timg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/layout/activity_music_player.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/layout/activity_play_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/layout/activity_play_list_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/layout/header_play_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/layout/header_play_list_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/layout/item_pl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/layout/item_play_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/layout/item_play_list_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/layout/pop_playlist.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/values/attr.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/app/src/test/java/stanwang/top/musicplayer/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/Android/MusicPlayer/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/androidTest/java/stanwang/top/musicplayer/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/commons/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/commons/preference/Preference.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/music/auth/LoginActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/music/auth/Userbean.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/music/music_player/Control.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/music/music_player/MusicPlayService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/music/music_player/MusicPlayerActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/music/music_player/MyLiveData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/music/music_player/beans.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/music/personal_list/Items.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/music/personal_list/PlayBean.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/music/personal_list/PlayListActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/music/personal_list/Shrink.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/music/play_list/Items.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/music/play_list/ListPop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/music/play_list/PlayListBean.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/music/play_list/PlayListDetailActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/drawable-v21/selector_foreground_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/drawable/bt_shape.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/drawable/default_avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/drawable/default_cover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/drawable/foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/drawable/ic_add_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/drawable/ic_add_white_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/drawable/ic_arrow_back_white_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/drawable/ic_chevron_right_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/drawable/ic_clear_all_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/drawable/ic_clear_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/drawable/ic_more_vert_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/drawable/ic_more_vert_grey_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/drawable/ic_pause_circle_outline_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/drawable/ic_play_circle_outline_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/drawable/ic_playlist_play_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/drawable/ic_share_white_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/drawable/ic_skip_next_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/drawable/ic_skip_previous_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/drawable/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/drawable/pause.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/drawable/play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/drawable/previous.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/drawable/select_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/drawable/selector_foreground_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/drawable/sky.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/drawable/timg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/layout/activity_music_player.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/layout/activity_play_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/layout/activity_play_list_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/layout/header_play_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/layout/header_play_list_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/layout/item_pl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/layout/item_play_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/layout/item_play_list_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/layout/pop_playlist.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/values/attr.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/test/java/stanwang/top/musicplayer/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exp1/libs/client-combined-3.141.59-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exp1/libs/client-combined-3.141.59.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exp1/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../st2020-master/src/cn/tjuscs/st/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exp1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exp1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exp1/out/production/st/META-INF/st.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exp1/out/production/st/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exp1/out/test/st/MainTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exp1/st.iml" beforeDir="false" afterPath="$PROJECT_DIR$/exp1/st.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exp1/test/top/stanwang/exp1/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/exp1/test/top/stanwang/exp1/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/androidTest/java/stanwang/top/musicplayer/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/auth/LoginActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/auth/Userbean.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/commons/App.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/commons/bean/beans.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/commons/bean/beans.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/commons/network/Api.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/commons/network/Api.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/commons/network/CoroutineCallAdapterFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/commons/network/CoroutineCallAdapterFactory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/commons/network/CorutineExtensions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/commons/network/CorutineExtensions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/commons/network/HttpClient.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/commons/network/HttpClient.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/commons/preference/Preference.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/commons/preference/hawk.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/commons/preference/hawk.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/commons/ui/BottomPopupWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/commons/ui/BottomPopupWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/commons/ui/CircleImageView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/commons/ui/CircleImageView.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/commons/ui/ItemAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../2s/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/commons/ui/ItemAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/music_player/Control.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/music_player/MusicPlayService.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/music_player/MusicPlayerActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/music_player/MyLiveData.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/music_player/beans.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/personal_list/Items.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/personal_list/PlayBean.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/personal_list/PlayListActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/personal_list/Shrink.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/play_list/Items.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/play_list/ListPop.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/play_list/PlayListBean.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/java/stanwang/top/musicplayer/play_list/PlayListDetailActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/drawable/bt_shape.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/drawable/default_avatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/drawable/default_cover.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/drawable/foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/drawable/ic_add_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/drawable/ic_add_white_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/drawable/ic_arrow_back_white_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/drawable/ic_chevron_right_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/drawable/ic_clear_all_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/drawable/ic_clear_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/drawable/ic_more_vert_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/drawable/ic_more_vert_grey_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/drawable/ic_pause_circle_outline_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/drawable/ic_play_circle_outline_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/drawable/ic_playlist_play_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/drawable/ic_share_white_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/drawable/ic_skip_next_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/drawable/ic_skip_previous_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/drawable/next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/drawable/pause.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/drawable/play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/drawable/previous.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/drawable/select_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/drawable/sky.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/drawable/timg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/layout/activity_music_player.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/layout/activity_play_list.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/layout/activity_play_list_detail.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/layout/header_play_list.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/layout/header_play_list_detail.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/layout/item_pl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/layout/item_play_list.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/layout/item_play_list_detail.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/layout/pop_playlist.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/values/attr.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/app/src/test/java/stanwang/top/musicplayer/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/MusicPlayer/settings.gradle" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="370" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Arquillian JUnit Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\learning_materials\3s\st\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YKMzcpu5XgRK93U2UfdZ2MJumC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/client-combined-3.141.59-sources.jar!/" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.41190198" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="top.stanwang.exp1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\learning_materials\3s\st\libs" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\learning_materials\3s\st" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.TestBaiduTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.stanwang.exp1.Main" />
+      <module name="st" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
+      <module name="st" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="st" />
+      <option name="PACKAGE_NAME" value="top.stanwang.exp1" />
+      <option name="MAIN_CLASS_NAME" value="top.stanwang.exp1.MainTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="st" />
+      <option name="PACKAGE_NAME" value="top.stanwang.exp1" />
+      <option name="MAIN_CLASS_NAME" value="top.stanwang.exp1.MainTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBaiduTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="st" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.stanwang.exp1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="top.stanwang.exp1" />
+      <option name="MAIN_CLASS_NAME" value="top.stanwang.exp1.TestBaiduTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestBaiduTest" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="JUnit.MainTest.test" />
+        <item itemvalue="JUnit.MainTest" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cbd57833-6f78-4462-96d8-6da3bdbf063d" name="Default Changelist" comment="" />
+      <created>1582687095362</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582687095362</updated>
+      <workItem from="1582687101235" duration="335000" />
+      <workItem from="1582687570807" duration="1363000" />
+      <workItem from="1582692601475" duration="1061000" />
+      <workItem from="1582859872313" duration="1690000" />
+      <workItem from="1583133128232" duration="5910000" />
+      <workItem from="1583234080220" duration="3656000" />
+      <workItem from="1584499926557" duration="1255000" />
+      <workItem from="1584501297799" duration="1983000" />
+      <workItem from="1584930744591" duration="290000" />
+      <workItem from="1584935830089" duration="925000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$APPLICATION_HOME_DIR$/lib/hamcrest-core-1.3.jar!/org/hamcrest/Matcher.class</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/top/stanwang/exp1/MainTest.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solution.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solution.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/test/top/stanwang/exp1/MainTest.java</url>
+          <line>6</line>
+          <properties class="top.stanwang.exp1.MainTest">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/st$Test.ic" NAME="Test Coverage Results" MODIFIED="1582689014694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/st$MainTest.ic" NAME="MainTest Coverage Results" MODIFIED="1583137666599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/st$MainTest_test.ic" NAME="MainTest.test Coverage Results" MODIFIED="1583139441349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
